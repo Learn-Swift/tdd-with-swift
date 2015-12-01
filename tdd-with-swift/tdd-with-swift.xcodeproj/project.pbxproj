@@ -13,6 +13,12 @@
 		8AC00DEF1C0D56A9002EFA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC00DEE1C0D56A9002EFA45 /* Assets.xcassets */; };
 		8AC00DF21C0D56A9002EFA45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC00DF01C0D56A9002EFA45 /* LaunchScreen.storyboard */; };
 		8AC00DFD1C0D56A9002EFA45 /* tdd_with_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC00DFC1C0D56A9002EFA45 /* tdd_with_swiftTests.swift */; };
+		8AC00E081C0D56E6002EFA45 /* TestsForUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC00E071C0D56E6002EFA45 /* TestsForUtil.swift */; };
+		8AC00E0F1C0D58B9002EFA45 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC00E0E1C0D58B9002EFA45 /* Util.swift */; };
+		8AC00E101C0D58B9002EFA45 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC00E0E1C0D58B9002EFA45 /* Util.swift */; };
+		8AC00E121C0D5AD1002EFA45 /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC00E111C0D5AD1002EFA45 /* FizzBuzzTests.swift */; };
+		8AC00E141C0D5B02002EFA45 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC00E131C0D5B02002EFA45 /* FizzBuzz.swift */; };
+		8AC00E151C0D5B02002EFA45 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC00E131C0D5B02002EFA45 /* FizzBuzz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,10 @@
 		8AC00DF81C0D56A9002EFA45 /* tdd-with-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tdd-with-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC00DFC1C0D56A9002EFA45 /* tdd_with_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tdd_with_swiftTests.swift; sourceTree = "<group>"; };
 		8AC00DFE1C0D56A9002EFA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC00E071C0D56E6002EFA45 /* TestsForUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestsForUtil.swift; sourceTree = "<group>"; };
+		8AC00E0E1C0D58B9002EFA45 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		8AC00E111C0D5AD1002EFA45 /* FizzBuzzTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzzTests.swift; sourceTree = "<group>"; };
+		8AC00E131C0D5B02002EFA45 /* FizzBuzz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,8 @@
 				8AC00DEE1C0D56A9002EFA45 /* Assets.xcassets */,
 				8AC00DF01C0D56A9002EFA45 /* LaunchScreen.storyboard */,
 				8AC00DF31C0D56A9002EFA45 /* Info.plist */,
+				8AC00E0E1C0D58B9002EFA45 /* Util.swift */,
+				8AC00E131C0D5B02002EFA45 /* FizzBuzz.swift */,
 			);
 			path = "tdd-with-swift";
 			sourceTree = "<group>";
@@ -91,7 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				8AC00DFC1C0D56A9002EFA45 /* tdd_with_swiftTests.swift */,
+				8AC00E071C0D56E6002EFA45 /* TestsForUtil.swift */,
 				8AC00DFE1C0D56A9002EFA45 /* Info.plist */,
+				8AC00E111C0D5AD1002EFA45 /* FizzBuzzTests.swift */,
 			);
 			path = "tdd-with-swiftTests";
 			sourceTree = "<group>";
@@ -198,7 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AC00DEA1C0D56A9002EFA45 /* ViewController.swift in Sources */,
+				8AC00E0F1C0D58B9002EFA45 /* Util.swift in Sources */,
 				8AC00DE81C0D56A9002EFA45 /* AppDelegate.swift in Sources */,
+				8AC00E141C0D5B02002EFA45 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC00E151C0D5B02002EFA45 /* FizzBuzz.swift in Sources */,
 				8AC00DFD1C0D56A9002EFA45 /* tdd_with_swiftTests.swift in Sources */,
+				8AC00E101C0D58B9002EFA45 /* Util.swift in Sources */,
+				8AC00E081C0D56E6002EFA45 /* TestsForUtil.swift in Sources */,
+				8AC00E121C0D5AD1002EFA45 /* FizzBuzzTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
